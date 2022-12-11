@@ -18,8 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
         aTag.innerText = films.title
         movies.append(olist)
         aTag.addEventListener("click", (e) => {
-            cards.innerHTML = ""
             e.preventDefault()
+            cards.innerHTML = ""
             displayMovieDetails(films)
         })
     }
@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 e.preventDefault()
                 cards.innerHTML = ""
                 buyTicket(films)
-alert('Click OK to proceed with purchase')
+//alert('Click OK to proceed with purchase')
             })
         }
         //appending button
@@ -111,8 +111,8 @@ alert('Click OK to proceed with purchase')
     }
     //buyTicket
     const buyTicket = (films) => {
-        fetch(`https://kevinkkimutai.github.io/Flatdango//db.json/${films.id}`, {
-            method: 'PATCH',
+        fetch(`https://kevinkkimutai.github.io/Flatdango/db.json/${films.id}`, {
+            method: 'POST',
             headers: {
                 "content-Type": "application/json"
             },
@@ -130,7 +130,7 @@ alert('Click OK to proceed with purchase')
     }
     //load movie list
     const loadMovieList = () => {
-        fetch('https://kevinkkimutai.github.io/Flatdango//db.json')
+        fetch('https://kevinkkimutai.github.io/Flatdango/db.json')
             .then((res) => res.json())
             .then(data => {
                 data.forEach(films => {

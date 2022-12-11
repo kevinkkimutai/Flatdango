@@ -5,7 +5,7 @@
       "runtime": "108",
       "capacity": 30,
       "showtime": "04:00PM",
-      "tickets_sold": 30,
+      "tickets_sold": 25,
       "description": "A giant lizard terrorizes a rural Texas community and a heroic teenager attempts to destroy the creature.",
       "poster": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
     },
@@ -35,7 +35,7 @@
       "runtime": "101",
       "capacity": 40,
       "showtime": "09:00PM",
-      "tickets_sold": 40,
+      "tickets_sold": 30,
       "description": "A young man meets a farm girl who is actually a witch.",
       "poster": "https://www.gstatic.com/tv/thumb/v22vodart/43468/p43468_v_v8_aa.jpg"
     },
@@ -45,7 +45,7 @@
       "runtime": "96",
       "capacity": 50,
       "showtime": "03:30PM",
-      "tickets_sold": 48,
+      "tickets_sold": 44,
       "description": "The Martians kidnap Santa Claus because there is nobody on Mars to give their children presents.",
       "poster": "https://www.gstatic.com/tv/thumb/v22vodart/4232/p4232_v_v8_aa.jpg"
     },
@@ -95,7 +95,7 @@
       "runtime": "122",
       "capacity": 50,
       "showtime": "10:00PM",
-      "tickets_sold": 44,
+      "tickets_sold": 41,
       "description": "Giant spiders from another dimension invade Wisconsin.",
       "poster": "https://www.gstatic.com/tv/thumb/v22vodart/42171/p42171_v_v8_ab.jpg"
     },
@@ -136,7 +136,7 @@
       "runtime": "111",
       "capacity": 50,
       "showtime": "08:00PM",
-      "tickets_sold": 40,
+      "tickets_sold": 36,
       "description": "International man of mystery Diabolik and his lover pull off heist after heist, all while European cops led by Inspector Ginko and envious mobsters led by Ralph Valmont are closing in on them.",
       "poster": "https://www.gstatic.com/tv/thumb/v22vodart/11850/p11850_v_v8_aa.jpg"
     },
